@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_add.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_denglu.xml" value="0.19083969465648856" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_mingxi.xml" value="0.12335359675785208" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_input.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_mingxi.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_output.xml" value="0.25" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_tongji.xml" value="0.19610507246376813" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_tongji_tongji.xml" value="0.19610507246376813" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_tongji_tongji_zhichu.xml" value="0.25364583333333335" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/fragment_zichan.xml" value="0.25364583333333335" />
+        <entry key="..\:/dazuoye/app/src/main/res/layout/mingxi_recycleview.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="150dp"
+    android:id="@+id/fragment_zichan"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/mingxi_biankuang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="净资产"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:id="@+id/zichan_after"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+        android:text="￥5000"
+        android:textColor="#FF6347"
+        android:textSize="22dp"></TextView>
+    <ImageButton
+        android:id="@+id/zichan_eye"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp">
+    </ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="70dp"
+        android:text="总资产"
+        android:textColor="#828282"
+        android:textSize="12dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="100dp"
+        android:text="总支出"
+        android:textColor="#828282"
+        android:textSize="12dp"></TextView>
+
+    <ProgressBar
+        android:id="@+id/zichan_progressbar_sumin"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="180dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="73dp"
+        android:layout_toRightOf="@+id/mingxi_zhichu"
+        android:max="100"
+        android:progressDrawable="@drawable/mingxi_jindutiao2" />
+    />
+
+    <ProgressBar
+        android:id="@+id/zichan_progressbar_sumout"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="180dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="104dp"
+        android:layout_toRightOf="@+id/mingxi_zhichu"
+        android:progressDrawable="@drawable/mingxi_jindutiao3" />
+    />
+
+    <TextView
+        android:id="@+id/zichan_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginRight="35dp"
+        android:text="2120"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:id="@+id/zichan_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginRight="35dp"
+        android:text="2120"
+        android:textColor="#000000"></TextView>
+
+</RelativeLayout>
